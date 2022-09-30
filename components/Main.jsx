@@ -13,7 +13,7 @@ const Main = () => {
                 <h1 className='py-2 text-gray-700'> A Software Engineer </h1>
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'> I'm experienced in scaling full-stack JavaScript applications 
                 with React/Redux, Node, Express, SQL/NoSQL databases</p>
-                <div className='flex items-center justify-between max-w-[300px] m-auto py-4'>
+                <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedinIn/>
                     </div>
