@@ -11,7 +11,7 @@ const resume = () => {
           name='description'
           content='I’m a software engineer experienced in scaling full-stack JavaScript applications.'
         />
-        <link rel='icon' href='/fav.png' />
+        <link href='public/assets/acp-logo.png' />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
@@ -155,7 +155,7 @@ const resume = () => {
 
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'> Parks and reacreation </span>
+            <span className='font-bold'> Parks and Recreation </span>
             <span className='px-2'>|</span> National Parks Trip Planner
           </p>
           <p className='py-1 italic'>2022</p>

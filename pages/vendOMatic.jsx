@@ -12,7 +12,7 @@ const vendOMatic = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={vendOmaticImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
             <h2 className='py-2'> Vend-O-Matic</h2>
-            <h3> React.js / Node.js / NoSQL </h3>
+            <h3> React / Node / NoSQL </h3>
         </div>
       </div>
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
@@ -36,8 +36,12 @@ const vendOMatic = () => {
             <br/>
             I used a NoSQL database(MongoDB) for its ease of use and setup. For future scalability, a NoSQL database can easily accomadate more inventory with minimal code updates needed. However, if the database was serving multiple machines and the priority was inventory management, a SQL database may be more suited for the occasion.
             </p>
-        <button className='px-8 py-2 mt-4 mr-8'> Demo </button>
-        <button className='px-8 py-2 mt-4'> Code </button>
+        <a href='https://vendingmachine-vendomatic.herokuapp.com/' target='_blank' rel='noreferrer'>
+          <button className='px-8 py-2 mt-4 mr-8'> Demo </button>
+        </a>
+        <a href='https://github.com/andrewcpark/vend-o-matic' target='_blank' rel='noreferrer'>
+          <button className='px-8 py-2 mt-4'> Github </button>
+        </a>
       </div>
       <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
         <div className='p-2'>
