@@ -4,18 +4,22 @@ import Link from 'next/link';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai';
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   // HOOK TO INITIALIZE AND SET STATE
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavbg] = useState('#ecf0f3');
+  const [linkColor, setLinkColor] = useState('#1f2937');
+  const router = useRouter();
 
   // LOGIC TO TOGGLE BETWEEN STATE
   const handleNav = () => {
     setNav(!nav)
   };
 
-const [shadow, setShadow] = useState(false);
-
+  // LOGIC TO GIVE SHADOW ON NAVBAR ONCE SCROLLING
 useEffect(() => {
   const handleShadow = () => {
     if (window.scrollY >= 90) {
@@ -27,14 +31,24 @@ useEffect(() => {
   window.addEventListener('scroll', handleShadow)
 }, []);
 
+useEffect (() => {
+  if (router.asPath === '/vendOMatic') {
+    setNavbg('transparent')
+    setLinkColor('#f8f8f8')
+  } else {
+    setNavbg('#ecf0f3')
+    setLinkColor('#1f2937')
+  }
+}, [router]);
+
   return (
-    <div id='navbar' className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div id='navbar' style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       <div className='flex justify-between items-center w-full px-2 2xl:px-16'>
         <Link href='/'>
           <Image src="/../public/assets/acp-logo.png" alt="/" width='250' height='100'/>
         </Link>
         <div>
-        <ul className='hidden md:flex'>
+        <ul style={{color: `${linkColor}`}}className='hidden md:flex'>
           <Link href='/'>
             <li className='ml-10 text-sm uppercase hover:border-b'> Home </li>
           </Link>
@@ -47,7 +61,7 @@ useEffect(() => {
           <Link href='/#projects'>
             <li className='ml-10 text-sm uppercase hover:border-b'> Projects </li>
           </Link>
-          <Link href='/'>
+          <Link href='/resume'>
             <li className='ml-10 text-sm uppercase hover:border-b'> Resume </li>
           </Link>
           <Link href='/'>
@@ -82,25 +96,25 @@ useEffect(() => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> Home </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Home </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> About </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> About </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> Skills </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Skills </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> Projects </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Projects </li>
+              </Link>
+              <Link href='/resume'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Resume </li>
               </Link>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> Resume </li>
-              </Link>
-              <Link href='/'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> Blog </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Blog </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='ml-10 text-sm uppercase hover:border-b'> Contact </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Contact </li>
               </Link>
             </ul>
             <div className='pt-40'>
@@ -124,12 +138,16 @@ useEffect(() => {
                   <FaGithub />
                 </div>
                 </a>
+                <Link href='/#contact'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <AiOutlineMail/>
                 </div>
+                </Link>
+                <Link href='/resume'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <BsFillPersonLinesFill/>
                 </div>
+                </Link>
               </div>
             </div>
           </div>
