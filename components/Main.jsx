@@ -14,12 +14,24 @@ const Main = () => {
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'> I'm experienced in scaling full-stack JavaScript applications 
                 with React/Redux, Node, Express, SQL/NoSQL databases</p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
+                    <a
+                    href='https://www.linkedin.com/in/andrew-c-park/'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaLinkedinIn/>
                     </div>
+                    </a>
+                    <a
+                    href='https://github.com/andrewcpark'
+                    target='_blank'
+                    rel='noreferrer'
+                    >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <FaGithub />
                     </div>
+                    </a>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail/>
                     </div>

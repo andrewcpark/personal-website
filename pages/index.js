@@ -16,7 +16,6 @@ export default function Home() {
         <link rel="icon" href="/assets/acp-logo.png" />
       </Head>
 
-    <Navbar/>
     <Main/>
     <About/>
     <Skills/>
