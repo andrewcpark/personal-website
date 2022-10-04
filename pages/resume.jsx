@@ -155,8 +155,8 @@ const resume = () => {
 
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'> Parks and Recreation </span>
-            <span className='px-2'>|</span> National Parks Trip Planner
+            <span className='font-bold'> Book Exchange </span>
+            <span className='px-2'>|</span> Book Trading Platform
           </p>
           <p className='py-1 italic'>2022</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
@@ -165,8 +165,7 @@ const resume = () => {
                 making unnecessary API calls to the server
             </li>
             <li>
-                Implemented and integrated a NoSQL database to store user’s information using a defined schema model and
-                leveraged the ability to store composite data types
+            Implemented and integrated a PostgreSQL database to store user’s information and book collection that allowed an overarching top down view of the relational data movement
             </li>
           </ul>
         </div>
