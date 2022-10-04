@@ -11,7 +11,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#1e97f3]'> About </p>
                 <h2 className='py-4'> Who I Am </h2>
                 <p className='py-2 text-gray-600'> I specialize in building JavaScript applications and like to work on all parts of the tech stack. I’m passionate about learning new technologies and understand there is more than one way to accomplish a task. I am a quick learner and can pick up new tech stacks as needed. I believe that being a great developer is not using one specific language, but choosing the best tool for the job.
-                In my free time I like to travel, train Mixed martial arts, and work on personal projects.  </p>
+                In my free time I like to travel, train mixed martial arts, and work on personal projects.  </p>
                 <Link href='/#projects'>
                   <p className='py-2 text-gray-600 underline cursor-pointer'> Check out some of my latest projects. </p>
                 </Link>
