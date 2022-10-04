@@ -1,7 +1,7 @@
 import React from 'react';
 import VendOMatic from '../public/assets/projects/vendOMatic.png';
 import pulseImg from '/public/assets/projects/pulse.png';
-import nftGeneratorImg from '/public/assets/projects/nftgenerator.png';
+import nftGeneratorImg from '/public/assets/projects/nftGenerator.png';
 import bookExchangeImg from '/public/assets/projects/bookExchange.png'
 import ProjectItem from './ProjectItem.jsx';
 

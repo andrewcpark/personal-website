@@ -1,6 +1,12 @@
 {
   "/_app": "pages/_app.js",
+  "/": "pages/index.html",
   "/_error": "pages/_error.js",
+  "/nftGenerator": "pages/nftGenerator.html",
+  "/pulse": "pages/pulse.html",
+  "/resume": "pages/resume.html",
+  "/vendOMatic": "pages/vendOMatic.html",
+  "/bookExchange": "pages/bookExchange.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
