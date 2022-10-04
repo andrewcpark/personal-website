@@ -1,5 +1,5 @@
 import React from 'react'
-import nftGeneratorImg from '/public/assets/projects/nftgenerator.png'
+import nftGeneratorImg from '/public/assets/projects/nftGenerator.png'
 import Image from 'next/image'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
