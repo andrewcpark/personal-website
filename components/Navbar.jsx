@@ -84,14 +84,11 @@ useEffect (() => {
           <div>
             <div className='flex w-full items-center justify-between'>
               <Link href='/'>
-                <Image src='/../public/assets/acp-logo.png' alt='/' width='125' height='50' />
+                <Image src={logoImg} alt='/' width='125' height='50' />
               </Link>
               <div onClick={handleNav} className='rounded-full shadow-lg shawdow-gray-400 p-3 cursor-pointer'>
                   <AiOutlineClose />
               </div>
-            </div>
-            <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[95%] py-4'> Let's build something together </p>
             </div>
           </div>
           <div className='py-4 flex flex-col'>

@@ -21,7 +21,6 @@ const nftGenerator = () => {
             <br/>
             <p> A web application for NFT enthusiasts that allows anyone to easily create and download their own unique NFTs.
             <br/>
-            <br/>
             </p>
         <a href='https://github.com/andrewcpark/NFT-Generator' target='_blank' rel='noreferrer'>
           <button className='px-8 py-2 mt-4'> Github </button>
