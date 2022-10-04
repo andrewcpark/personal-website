@@ -51,29 +51,29 @@ useEffect (() => {
         <div>
         <ul style={{color: `${linkColor}`}}className='hidden md:flex'>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> Home </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Home </li>
           </Link>
           <Link href='/#about'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> About </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> About </li>
           </Link>
           <Link href='/#skills'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> Skills </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Skills </li>
           </Link>
           <Link href='/#projects'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> Projects </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Projects </li>
           </Link>
           <Link href='/resume'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> Resume </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Resume </li>
           </Link>
           <Link href='/'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> Blog </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Blog </li>
           </Link>
           <Link href='/#contact'>
-            <li className='ml-10 text-sm uppercase hover:border-b'> Contact </li>
+            <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Contact </li>
           </Link>
         </ul>
           <div onClick={handleNav} className='md:hidden' >
-            <AiOutlineMenu size={25} fill='blue' />
+            <AiOutlineMenu size={25} fill='#1e97f3' />
           </div>
         </div>
       </div>
@@ -97,29 +97,29 @@ useEffect (() => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Home </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> Home </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> About </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> About </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Skills </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> Skills </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Projects </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> Projects </li>
               </Link>
               <Link href='/resume'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Resume </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> Resume </li>
               </Link>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Blog </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> Blog </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase hover:border-b'> Contact </li>
+                <li onClick={() => setNav(false)} className='py-4 text-sm uppercase border-[#1e97f3] hover:border-b'> Contact </li>
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#5651e5]'> Let's Connect </p>
+              <p className='uppercase tracking-widest text-[#1e97f3]'> Let's Connect </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
                   href='https://www.linkedin.com/in/andrew-c-park/'
