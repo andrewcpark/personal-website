@@ -65,9 +65,9 @@ useEffect (() => {
           <Link href='/resume'>
             <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Resume </li>
           </Link>
-          <Link href='/'>
+          {/* <Link href='/'>
             <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Blog </li>
-          </Link>
+          </Link> */}
           <Link href='/#contact'>
             <li className='ml-10 text-sm uppercase border-[#1e97f3] hover:border-b'> Contact </li>
           </Link>

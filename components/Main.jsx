@@ -12,7 +12,7 @@ const Main = () => {
                 <h1 className='py-4 text-gray-700'> Hi, I'm <span className='text-[#1e97f3]'> Andrew </span> </h1>
                 <h1 className='py-2 text-gray-700'> A Software Engineer </h1>
                 <p className='py-4 text-gray-600 sm:max-w-[70%] m-auto'> I'm experienced in scaling full-stack JavaScript applications 
-                with React/Redux, Node, Express, SQL/NoSQL databases. Based in Los Angles, CA. </p>
+                with React/Redux, Node, Express, SQL/NoSQL databases. Based in Los Angeles, CA. </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-6'>
                     <a
                     href='https://www.linkedin.com/in/andrew-c-park/'
