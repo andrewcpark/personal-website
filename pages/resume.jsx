@@ -107,22 +107,6 @@ const resume = () => {
           </ul>
         </div>
 
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Aspire Los Angeles
-            </span>
-            <span className='px-2'>|</span>Real Estate Agent
-          </p>
-          <p className='py-1 italic'> 2017 - 2021 </p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-                Increased online leads by 300% by creating and maintaining a client facing website by implementing HTML and
-                CSS, on a PHP powered CMS platform
-            </li>
-          </ul>
-        </div>
-
         {/* OPEN SOURCE PROJECTS */}
         <h5 className=' uppercase text-center underline text-[18px] py-4'>
           Open Source Projects
