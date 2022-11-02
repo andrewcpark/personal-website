@@ -10,7 +10,7 @@ const Post = ({post}) => {
                 <h3 className=' p-6 flex flex-col items-center justify-center uppercase'>{post.frontmatter.title}</h3>
             </div>
         <Link href={`/blog/${post.slug}`}>
-            <p className='text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'> Read More</p>
+            <p className='text-center py-3 text-gray-700 hover:text-[#1e97f3] font-bold text-m cursor-pointer'> Read More</p>
         </Link>
         </div>
     </div>
