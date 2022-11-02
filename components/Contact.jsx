@@ -87,7 +87,7 @@ const Contact = () => {
                             <label className='uppercase text-sm py-2'> Message </label>
                             <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' name='message'/>
                         </div>
-                        <div class="g-recaptcha" data-sitekey="6Lcd7s4iAAAAAO8CYDaoDJk9m6moyzYt6CKOes4K"></div>
+                        <div className="g-recaptcha" data-sitekey="6Lcd7s4iAAAAAO8CYDaoDJk9m6moyzYt6CKOes4K"></div>
                         <button className='w-full p-4 text-gray-100 mt-4'> Send Message </button>
                     </form>
                 </div>
