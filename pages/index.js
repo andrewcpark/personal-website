@@ -4,8 +4,12 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
+import Blog from '../components/Blog'
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 
-export default function Home() {
+export default function Home({posts}) {
   return (
     <div>
       <Head>
@@ -19,7 +23,32 @@ export default function Home() {
     <About/>
     <Skills/>
     <Projects/>
+    <Blog posts={posts}/>
     <Contact/>
     </div>
   )
+}
+
+export async function getStaticProps (){
+  // Get files from posts directory
+  const files = fs.readdirSync(path.join('posts'));
+
+  const posts = files.map((filename) => {
+      const slug = filename.replace('.md' ,'')
+// Get frontMatter
+  const markdownWithMeta = fs.readFileSync(path.join('posts', filename), 'utf-8')
+
+  const {data:frontmatter} = matter(markdownWithMeta)
+
+      return {
+          slug,
+          frontmatter,
+      }
+  })
+  
+  return {
+    props: {
+      posts: posts
+    }
+  }
 }
