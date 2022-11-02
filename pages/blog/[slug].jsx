@@ -12,7 +12,7 @@ const PostPage = ({frontmatter: {title, date, cover_image}, slug, content}) => {
         <h1 className='mt-5'>{title}</h1>
         <p>Posted on {date}</p>
         <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
-        <Link href='/'><button> Go Back </button></Link>
+        <Link href='/#blog'><button> Go Back </button></Link>
     </div>
   )
 }
