@@ -5,8 +5,6 @@ excerpt: "This is the excerpt for the post"
 cover_image: "/assets/contact.jpg"
 ---
 
-## Test Post
-
 - Item 1
 - item 2
 
