@@ -75,11 +75,35 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
+            ShipAid
+            </span>
+            <span className='px-2'>|</span> Shopify Shipping Protection App
+          </p>
+          <p className='py-1 italic'>11/2022 - Present</p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>
+              Developed custom scripts using Javascript for customers’ software integration and frontend solutions while optimizing their operational performance
+            </li>
+            <li>
+              Designed and improved the frontend application by streamlining client experiences utilizing React following UI/UX best practices 
+            </li>
+            <li>
+              Oversaw internal and customer troubleshooting, responsible for software maintenance requiring deep understanding of the codebase and Shopify systems
+            </li>
+            <li>
+              Worked closely with a remote team in an Agile environment, taking part in weekly stand ups and code reviews
+            </li>
+          </ul>
+        </div>
+
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
             RediSomm
             </span>
             <span className='px-2'>|</span> Redis Monitoring Tool
           </p>
-          <p className='py-1 italic'>2022 - Present</p>
+          <p className='py-1 italic'>4/2022 - Present</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
                 Built the frontend application with React and React Router (to optimize for performance and prevent re-renders after
