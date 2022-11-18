@@ -32,15 +32,15 @@ useEffect(() => {
   window.addEventListener('scroll', handleShadow)
 }, []);
 
-useEffect (() => {
-  if (router.asPath === '/vendOMatic') {
-    setNavbg('transparent')
-    setLinkColor('#f8f8f8')
-  } else {
-    setNavbg('#ecf0f3')
-    setLinkColor('#1f2937')
-  }
-}, [router]);
+// useEffect (() => {
+//   if (router.asPath === '/vendOMatic') {
+//     setNavbg('transparent')
+//     setLinkColor('#f8f8f8')
+//   } else {
+//     setNavbg('#ecf0f3')
+//     setLinkColor('#1f2937')
+//   }
+// }, [router]);
 
   return (
     <div id='navbar' style={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
