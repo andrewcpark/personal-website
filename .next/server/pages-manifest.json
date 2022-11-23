@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/vendOMatic": "pages/vendOMatic.js",
+  "/": "pages/index.js",
+  "/bluefin": "pages/bluefin.js"
 }

@@ -39,6 +39,9 @@ html {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#1a8ae5] to-[#64b7f6] text-white
   }
 
+  image {
+    @apply min-w-full min-h-full
+  }
 
   #blogPost {
     font-size: 1.25rem;
