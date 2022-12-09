@@ -59,6 +59,10 @@ const bluefin = () => {
             Through this exercise, I brushed up on CSS fundamentals and
             responsive designs implementing media queries.
           </p>
+          <br />
+          <p>
+            *DEMO NOTE: To search listings, input a city or zip code in the serach bar at the top of the page.*
+          </p>
           <a
             href="https://bluefin.vercel.app/"
             target="_blank"
