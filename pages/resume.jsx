@@ -233,6 +233,12 @@ const resume = () => {
             Public Talk | Single Sprout Speaker Series
           </p>
           <p>
+            <span className="uppercase font-bold"> Certifications: </span>
+            <span className="px-2">
+              AWS Certified Cloud Practitioner
+            </span>
+          </p>
+          <p>
             <span className="uppercase font-bold"> Interests & Hobbies </span>
             <span className="px-2"> Training Mixed Martial Arts </span> |
             <span className="px-2"> Traveling to Hawaii </span> |
