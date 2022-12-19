@@ -203,21 +203,6 @@ const resume = () => {
         </div>
 
         <div className="py-6">
-          <p className="italic">
-            <span className="font-bold"> NFT Generator </span>
-            <span className="px-2">|</span> NFT Customization Application
-          </p>
-          <p className="py-1 italic">2022</p>
-          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
-            <li>
-              Created a consumer facing frontend application using HTML, CSS,
-              and JavaScript that produces a layered image file of dynamically
-              rendered images based on user inputs resulting in quick client
-              side scripting and versatile functionality
-            </li>
-          </ul>
-        </div>
-        <div className="py-6">
           <p>
             <span className="uppercase font-bold"> Education: </span>
             <span className="px-2 font-bold"> B.A. </span> @ University of
