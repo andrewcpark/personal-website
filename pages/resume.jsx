@@ -80,25 +80,26 @@ const resume = () => {
             <span className="font-bold italic">ShipAid</span>
             <span className="px-2">|</span> Shopify Shipping Protection App
           </p>
-          <p className="py-1 italic">11/2022 - Present</p>
+          <p className="py-1 italic">2022</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Developed custom scripts using Javascript for customers’ software
-              integration and frontend solutions while optimizing their
-              operational performance
+              Designed and improved the frontend application by utilizing React
+              to create intuitive and user-friendly experiences for clients
             </li>
             <li>
-              Designed and improved the frontend application by streamlining
-              client experiences utilizing React following UI/UX best practices
+              Leveraged expertise in JavaScript to create customized scripts for
+              software integration, improving customers' operational performance
+              and productivity
             </li>
             <li>
-              Oversaw internal and customer troubleshooting, responsible for
-              software maintenance requiring deep understanding of the codebase
-              and Shopify systems
+              Demonstrated a deep understanding of codebase and Shopify systems
+              to oversee troubleshooting and maintenance of both internal and
+              customer software
             </li>
             <li>
-              Worked closely with a remote team in an Agile environment, taking
-              part in weekly stand ups and code reviews
+              Actively participated in weekly stand-ups and code reviews to
+              provide valuable input, maintain communication in an Agile
+              environment
             </li>
           </ul>
         </div>
@@ -108,7 +109,7 @@ const resume = () => {
             <span className="font-bold italic">RediSomm</span>
             <span className="px-2">|</span> Redis Monitoring Tool
           </p>
-          <p className="py-1 italic">4/2022 - Present</p>
+          <p className="py-1 italic">2022</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
               Built the frontend application with React and React Router (to
@@ -211,22 +212,13 @@ const resume = () => {
             Codesmith
           </p>
           <p>
-            <span className="uppercase font-bold"> Community Engagement: </span>
-            <span className="px-2 italic">
-              "Cache is King, The Importance of Caching"
-            </span>{" "}
-            Public Talk | Single Sprout Speaker Series
-          </p>
-          <p>
             <span className="uppercase font-bold"> Certifications: </span>
-            <span className="px-2">
-              AWS Certified Cloud Practitioner
-            </span>
+            <span className="px-2">AWS Certified Cloud Practitioner</span>
           </p>
           <p>
             <span className="uppercase font-bold"> Interests & Hobbies </span>
-            <span className="px-2"> Training Mixed Martial Arts </span> |
             <span className="px-2"> Traveling to Hawaii </span> |
+            <span className="px-2"> Training Mixed Martial Arts </span> |
             <span className="px-2"> Visiting Open Houses </span>
           </p>
         </div>
